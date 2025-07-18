@@ -226,6 +226,13 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* footer section */
+.footer-section{
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 
 
 /* responsive media query */
@@ -234,7 +241,8 @@ main > section{
     .navbar,
     .nav-link,
     .Feature,
-    .teams{
+    .teams
+    .footer{
         flex-direction: column;
     }
 
